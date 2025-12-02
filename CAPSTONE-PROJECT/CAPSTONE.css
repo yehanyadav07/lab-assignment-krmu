@@ -1,0 +1,177 @@
+body {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    background-color: #9bacd5;
+}
+
+header {
+    background-color: #1a1a2e;
+    color: #f9f9f9;
+    padding: 25px;
+    text-align: left;
+}
+
+nav {
+    background-color: #16213e;
+    padding: 12px;
+    text-align: right;
+}
+
+nav a {
+    color: #f1f1f1;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+.hero {
+    background-image: url(Travel.jpg);
+    background-size: cover;
+    color: #ffffff;
+    text-align: left;
+    padding: 120px 30px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.hero button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background-color: #ff4c29;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section {
+    padding: 50px 30px;
+    text-align: left;
+}
+
+.section h2 {
+    color: #1a1a2e;
+    margin-bottom: 35px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background-color: #fafafa;
+    border: 2px solid #ddd;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.card h3 {
+    color: #ff4c29;
+    margin: 12px 0;
+}
+
+.card p {
+    font-size: 15px;
+    color: #333;
+}
+
+.price {
+    font-weight: bold;
+    color: #2ecc71;
+    margin-top: 12px;
+}
+
+#contact {
+    background-image: url(Contactus.jpg);
+    background-size: cover;
+    max-width: 550px;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 8px rgba(255, 0, 0, 0.6);
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: #222;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#contact p {
+    font-size: 15px;
+    color: #f1f1f1;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 18px;
+}
+
+.details label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #fdfdfd;
+}
+
+.details input[type="text"],
+.details input[type="email"],
+.details textarea {
+    padding: 12px;
+    border: 2px solid #00adb5;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.details input:focus,
+.details textarea:focus {
+    border-color: #ff4c29;
+}
+
+#submit-btn {
+    padding: 14px;
+    background: #ffd17c;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+#submit-btn:hover {
+    background: #ffd17c;
+    transform: scale(1.07);
+}
+
+#about {
+    max-width: 550px;
+    margin: 70px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(227, 5, 5, 0.7);
+    background-color: #a199ec;
+    text-align: left;
+}
